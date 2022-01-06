@@ -31,13 +31,26 @@
     color: black;
 }
 
+/* #p{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  border: solid  white 1px;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  box-sizing: border-box;
+
+} */
+
 #p{
   border: solid white;
   border-radius: 10px;
   margin: 10px 10px;
   color: white;
   height: 90px;
-
+  
 }
 .class{
   background-color: #ebc334;
@@ -45,9 +58,8 @@
   width: 700px;
   margin: auto;
 
-  border: solid rgb(57, 61, 33);
+  border: solid rgb(47, 47, 53);
   min-height: 730px;
-  
   
 }
 body{
@@ -93,19 +105,21 @@ body{
   
 
 }
-
-
-
 #complate{
-  
   display: inline-block;
   background-color: blue;
   margin-left: 220px;
-
+ margin-bottom: 70px;
  cursor:pointer;
- }
- 
- #p{
-  text-align: justify;
-  text-justify: inter-word;
- }
+}
+#q{
+  padding-left: 10px;
+}
+
+/* #complate{
+  display: block;
+  background-color: blue;
+  margin-left: 220px;
+ margin-bottom: 270px;
+ cursor:pointer;
+} */
