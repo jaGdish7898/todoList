@@ -1,4 +1,4 @@
-
+/* submitbutton */
 #btn{
   background-color:rgb(14, 224, 81);
   display: block;
@@ -11,7 +11,7 @@
   margin-bottom: 20px;
   border: solid green;
 }
-
+/* inputField */
 #text{
   background-color:rgb(225, 230, 233);
   display: block;
@@ -20,25 +20,27 @@
   height: 35px;
   font-size: 30px;
   border: solid;
-
+  
 }
-
+/* placeholder */
 #text::-webkit-input-placeholder {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 3;
-    /* text-align: center; */
     padding-left: 10px;
     color: black;
 }
 
+/* containerDiv */
 #p{
   border: solid white;
   border-radius: 10px;
   margin: 10px 10px;
   color: white;
   height: 90px;
+  
 
 }
+/* yellowDiv */
 .class{
   background-color: #ebc334;
   border: solid;
@@ -47,12 +49,12 @@
 
   border: solid rgb(57, 61, 33);
   min-height: 730px;
-  
-  
 }
+
 body{
   background-color: black;
 }
+/* innerBlackDiv */
 #innerDiv{
   background-color: rgb(22, 22, 22);
   width: 350px;
@@ -61,28 +63,16 @@ body{
   border-radius: 20px;
   border: solid rgb(86, 86, 211);
   /* overflow: auto; */
-  /* max-width: 300px;
-  border-color: aquamarine;
-  background-color: rgb(48, 48, 49);
-  margin: 25px auto;
-  overflow: auto;
-  min-height: 400px;
-  border: 5px solid rgb(46, 4, 160);
-  border-radius: 10px;
-  padding: 30px;
-  border-radius: 10px;
-  color: azure;
-  font-family: cursive;
-  text-align: center; */
-  
-  
 }
+
+/* heading */
 #head{
   color: white;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
 
+/* crossButton */
 #cross{
   display: inline-block;
   color: red;
@@ -90,22 +80,14 @@ body{
   margin-left: 10px;
   padding-top: 10px;
   cursor:pointer;
-  
-
 }
 
-
-
+/* completeButton */
 #complate{
-  
   display: inline-block;
   background-color: blue;
   margin-left: 220px;
-
- cursor:pointer;
+  cursor:pointer;
  }
  
- #p{
-  text-align: justify;
-  text-justify: inter-word;
- }
+ 
