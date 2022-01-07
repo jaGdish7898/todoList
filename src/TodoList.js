@@ -3,27 +3,11 @@ import { ComplateButton } from "./ComplateButton"
 import ClearIcon from '@material-ui/icons/Clear';
 let arr = []
 
-export const TodoList = () => {
+export const TodoList = ({data,dataUpdater}) => {
 
-    let initialDta = [
-        {
-            task: "work at 10",
-            id: 1,
-            isCompleted: false,
-            isDeleted: false
-        },
-        {
-            task: "sleep early",
-            id: 2,
-            isCompleted: false,
-            isDeleted: false
-
-        }
-    ]
-
-    const [data, dataUpdater] = useState(initialDta)
+    
     const [value, setValue] = useState("")
-    let [tasksRemain, updateRemainingTask] = useState(initialDta.length)
+    let [tasksRemain, updateRemainingTask] = useState(data.length)
 
     //addTsk
     const addThisTask = () => {
@@ -76,6 +60,8 @@ export const TodoList = () => {
         <div className='class'>
 
             <div id="innerDiv">
+
+
                 <h2 id="head">Pending Tasks ({tasksRemain})</h2>
                 {data.map(element =>
                     <div id="p">
